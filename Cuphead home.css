@@ -1,0 +1,124 @@
+/*All the code is a copy of balatro css code with small tweaks*/
+/* Styles the image with class "apple" to span a large width and height, and shifts it slightly to the left */
+.apple {
+    width: 1920px;
+    height: 850px;
+    position: relative;
+    right: 50px;
+}
+
+/* Sets the background color of the entire page to black */
+body {
+    background-color: black;
+}
+
+/* Styles all paragraph text to be white, large, and use the "Jersey 10" font */
+p {
+    color: white;
+    font-size: 45px;
+    font-family: "Jersey 10"
+}
+
+/* Styles all level-1 headings with white color, larger font size, and custom font */
+h1 {
+    color: white;
+    font-size: 60px;
+    font-family: "Jersey 10"
+}
+
+/* Ensures all images use relative positioning for custom placement */
+img {
+    position: relative;
+}
+
+/* Styles an image with class "orange" to a fixed size, rounded corners, and positioned with an offset */
+.orange {
+    width: 350px;
+    height: 250px;
+    border-radius: 25px;
+    left: 400px;
+    top: 100px;
+}
+
+/* Similar to .orange but with a different horizontal offset, used for layout alignment */
+.grape {
+    width: 350px;
+    height: 250px;
+    border-radius: 25px;
+    top: 100px;
+    left: 800px;    
+}
+
+/* Styles a button or link with class "red":
+   - Uses custom font
+   - Positioned relative to its container
+   - Styled with a khaki background and black text
+   - Rounded corners and centered text
+   - Sized for visibility and touch accessibility */
+.red {
+    font-family:"Jersey 10";
+    position: relative;
+    top: 350px;
+    right: 600px;
+    display: inline-block;
+    background-color: khaki;
+    padding: 20px;
+    width: 225px;
+    height: 54px;
+    font-size: 45px;
+    color: black;
+    border-radius: 20px;
+    text-align: center;
+}
+
+/* Hover effect for the "red" button: changes background color and underlines text */
+.red:hover {
+    background-color: rgb(159, 144, 17);
+    text-decoration: underline; 
+}
+
+/* Styles the "pink" button similarly to "red" but with different horizontal positioning */
+.pink {
+    font-family:"Jersey 10";
+    position: relative;
+    top: 350px;
+    right: 200px;
+    display: inline-block;
+    background-color: khaki;
+    padding: 20px;
+    width: 225px;
+    height: 54px;
+    font-size: 45px;
+    color: black;
+    border-radius: 20px;
+    text-align: center;
+}
+
+/* Hover effect for the "pink" button */
+.pink:hover {
+    background-color: rgb(159, 144, 17);
+    text-decoration: underline; 
+}
+
+/* Styles the "blue" button with similar styling but moves it to the left using a positive left offset */
+.blue {
+    font-family:"Jersey 10";
+    position: relative;
+    top: 350px;
+    left: 250px;
+    display: inline-block;
+    background-color: khaki;
+    padding: 20px;
+    width: 225px;
+    height: 54px;
+    font-size: 45px;
+    color: black;
+    border-radius: 20px;
+    text-align: center;
+}
+
+/* Hover effect for the "blue" button */
+.blue:hover {
+    background-color: rgb(159, 144, 17);
+    text-decoration: underline; 
+}

@@ -1,0 +1,125 @@
+/* Sets the background color of the entire page to black */
+body {
+    background-color: black;
+}
+
+/* Styles for all <h1> headers */
+h1 {
+    color: white;              /* White text for visibility on dark background */
+    font-family: "Jersey 10";  /* Custom stylized font */
+    font-size: 60px;           /* Large size for prominence */
+}
+
+/* Styles for an image with class "apple" */
+.apple {
+    width: 1920px;             /* Full HD width */
+    height: 900px;             /* Large height for a banner or header image */
+    position: relative;        /* Allows offset adjustments */
+    right: 50px;               /* Moves image slightly to the left */
+}
+
+/* Styles for an element representing Steam platform */
+.steam {
+    color: midnightblue;       /* Dark blue text */
+    font-size: 45px;           /* Large font size */
+    font-family: "Jersey 10";  /* Custom stylized font */
+}
+
+/* Styles for an element representing Nintendo platform */
+.nintendo {
+    color: crimson;            /* Bright red color */
+    font-size: 45px;           /* Large text */
+    font-family: "Jersey 10";  /* Consistent font */
+    position: relative;        /* Allows positioning */
+    top: 50px;                 /* Moves element down */
+    right: 40px;               /* Moves element left */
+}
+
+/* Styles for an element representing PlayStation platform */
+.playstation {
+    color: deepskyblue;        /* Light blue color */
+    font-size: 45px;           /* Large text */
+    font-family: "Jersey 10";  /* Consistent font */
+    position: relative;        /* Enables movement */
+    top: 100px;                /* Moves element further down */
+    right: 300px;              /* Moves element more to the left */
+}
+
+/* Styles for an element representing Xbox platform */
+.xbox {
+    color: olivedrab;          /* Greenish color */
+    font-size: 45px;           /* Large text */
+    font-family: "Jersey 10";  /* Consistent font */
+    position: relative;        /* Enables positioning */
+    top: 150px;                /* Moves element even further down */
+    right: 475px;              /* Moves element even more to the left */
+}
+
+/* Button/link style with class "red" */
+.red {
+    font-family:"Jersey 10";          /* Custom font */
+    position: relative;               /* Allows movement */
+    top: 350px;                       /* Pushes button down */
+    right: 500px;                     /* Moves button left */
+    display: inline-block;            /* Enables block styling inline */
+    background-color: indianred;      /* Reddish background */
+    padding: 20px;                    /* Adds spacing inside button */
+    width: 225px;                     /* Fixed button width */
+    height: 54px;                     /* Fixed button height */
+    font-size: 45px;                  /* Large text for readability */
+    color: black;                     /* Black text color */
+    border-radius: 20px;              /* Rounded corners */
+    text-align: center;               /* Centers the text */
+}
+
+/* Hover effect for red button */
+.red:hover {
+    background-color: rgb(171, 61, 61); /* Darker red on hover */
+    text-decoration: underline;        /* Adds underline on hover */
+}
+
+/* Button/link style with class "pink" */
+.pink {
+    font-family:"Jersey 10";          /* Custom font */
+    position: relative;               /* Allows movement */
+    top: 350px;                       /* Moves button down */
+    right: 50px;                      /* Slight left shift */
+    display: inline-block;            /* Block styling within a line */
+    background-color: indianred;      /* Same red background */
+    padding: 20px;                    /* Internal spacing */
+    width: 225px;                     /* Button width */
+    height: 54px;                     /* Button height */
+    font-size: 45px;                  /* Text size */
+    color: black;                     /* Text color */
+    border-radius: 20px;              /* Rounded corners */
+    text-align: center;               /* Centered text */
+}
+
+/* Hover effect for pink button */
+.pink:hover {
+    background-color: rgb(171, 61, 61); /* Darker red background on hover */
+    text-decoration: underline;        /* Underline on hover */
+}
+
+/* Button/link style with class "blue" */
+.blue {
+    font-family:"Jersey 10";          /* Custom font */
+    position: relative;               /* Allows movement */
+    top: 350px;                       /* Moves down */
+    left: 375px;                      /* Moves to the right */
+    display: inline-block;            /* Inline block layout */
+    background-color: indianred;      /* Button background */
+    padding: 20px;                    /* Space inside button */
+    width: 225px;                     /* Width */
+    height: 54px;                     /* Height */
+    font-size: 45px;                  /* Font size */
+    color: black;                     /* Font color */
+    border-radius: 20px;              /* Rounded edges */
+    text-align: center;               /* Center text */
+}
+
+/* Hover effect for blue button */
+.blue:hover {
+    background-color: rgb(171, 61, 61); /* Hover color */
+    text-decoration: underline;        /* Underline text on hover */
+}

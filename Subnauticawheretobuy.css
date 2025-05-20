@@ -1,0 +1,125 @@
+/* Set the background color of the entire webpage to black */
+body {
+    background-color: black;
+}
+
+/* Style for all <h1> headings */
+h1 {
+    color: white; /* Set text color to white */
+    font-family: "Jersey 10"; /* Use the "Jersey 10" font */
+    font-size: 60px; /* Set font size to 60 pixels */
+}
+
+/* Style for elements with the class "apple" */
+.apple {
+    width: 1920px; /* Set element width to 1920 pixels */
+    height: 900px; /* Set element height to 900 pixels */
+    position: relative; /* Position relative for offset positioning */
+    right: 50px; /* Move element 50 pixels to the left */
+}
+
+/* Style for elements with the class "steam" */
+.steam {
+    color: midnightblue; /* Set text color to midnight blue */
+    font-size: 45px; /* Set font size to 45 pixels */
+    font-family: "Jersey 10"; /* Use the "Jersey 10" font */
+}
+
+/* Style for elements with the class "nintendo" */
+.nintendo {
+    color: crimson; /* Set text color to crimson red */
+    font-size: 45px; /* Set font size to 45 pixels */
+    font-family: "Jersey 10"; /* Use the "Jersey 10" font */
+    position: relative; /* Use relative positioning */
+    top: 50px; /* Move element 50 pixels down */
+    right: 100px; /* Move element 100 pixels to the left */
+}
+
+/* Style for elements with the class "playstation" */
+.playstation {
+    color: deepskyblue; /* Set text color to deep sky blue */
+    font-size: 45px; /* Set font size to 45 pixels */
+    font-family: "Jersey 10"; /* Use the "Jersey 10" font */
+    position: relative; /* Use relative positioning */
+    top: 100px; /* Move element 100 pixels down */
+    right: 360px; /* Move element 360 pixels to the left */
+}
+
+/* Style for elements with the class "xbox" */
+.xbox {
+    color: olivedrab; /* Set text color to olive drab green */
+    font-size: 45px; /* Set font size to 45 pixels */
+    font-family: "Jersey 10"; /* Use the "Jersey 10" font */
+    position: relative; /* Use relative positioning */
+    top: 150px; /* Move element 150 pixels down */
+    right: 535px; /* Move element 535 pixels to the left */
+}
+
+/* Style for elements with the class "red" (likely a button or box) */
+.red {
+    font-family: "Jersey 10"; /* Use the "Jersey 10" font */
+    position: relative; /* Use relative positioning */
+    top: 350px; /* Move element 350 pixels down */
+    right: 550px; /* Move element 550 pixels to the left */
+    display: inline-block; /* Allow block styling while remaining inline */
+    background-color: cadetblue; /* Set background to cadet blue */
+    padding: 20px; /* Add 20 pixels of padding inside the element */
+    width: 225px; /* Set element width to 225 pixels */
+    height: 54px; /* Set element height to 54 pixels */
+    font-size: 45px; /* Set font size to 45 pixels */
+    color: black; /* Set text color to black */
+    border-radius: 20px; /* Round the corners with a 20px radius */
+    text-align: center; /* Center the text inside the element */
+}
+
+/* Hover effect for the "red" class */
+.red:hover {
+    background-color: rgb(31, 139, 143); /* Change background on hover */
+    text-decoration: underline; /* Underline text on hover */
+}
+
+/* Style for elements with the class "pink" (similar to "red") */
+.pink {
+    font-family: "Jersey 10"; /* Use the "Jersey 10" font */
+    position: relative; /* Use relative positioning */
+    top: 350px; /* Move element 350 pixels down */
+    right: 100px; /* Move element 100 pixels to the left */
+    display: inline-block; /* Allow block styling while remaining inline */
+    background-color: cadetblue; /* Set background to cadet blue */
+    padding: 20px; /* Add 20 pixels of padding inside the element */
+    width: 225px; /* Set element width to 225 pixels */
+    height: 54px; /* Set element height to 54 pixels */
+    font-size: 45px; /* Set font size to 45 pixels */
+    color: black; /* Set text color to black */
+    border-radius: 20px; /* Round the corners with a 20px radius */
+    text-align: center; /* Center the text inside the element */
+}
+
+/* Hover effect for the "pink" class */
+.pink:hover {
+    background-color: rgb(31, 139, 143); /* Change background on hover */
+    text-decoration: underline; /* Underline text on hover */
+}
+
+/* Style for elements with the class "blue" (also similar) */
+.blue {
+    font-family: "Jersey 10"; /* Use the "Jersey 10" font */
+    position: relative; /* Use relative positioning */
+    top: 350px; /* Move element 350 pixels down */
+    left: 325px; /* Move element 325 pixels to the right */
+    display: inline-block; /* Allow block styling while remaining inline */
+    background-color: cadetblue; /* Set background to cadet blue */
+    padding: 20px; /* Add 20 pixels of padding inside the element */
+    width: 225px; /* Set element width to 225 pixels */
+    height: 54px; /* Set element height to 54 pixels */
+    font-size: 45px; /* Set font size to 45 pixels */
+    color: black; /* Set text color to black */
+    border-radius: 20px; /* Round the corners with a 20px radius */
+    text-align: center; /* Center the text inside the element */
+}
+
+/* Hover effect for the "blue" class */
+.blue:hover {
+    background-color: rgb(31, 139, 143); /* Change background on hover */
+    text-decoration: underline; /* Underline text on hover */
+}

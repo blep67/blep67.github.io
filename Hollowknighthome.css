@@ -1,0 +1,105 @@
+.apple {
+    width: 1920px; /* Sets the image width to full screen */
+    height: 800px; /* Sets a fixed height for the image */
+    position: relative; /* Allows positioning relative to normal flow */
+    right: 50px; /* Moves the image 50px to the left */
+}
+
+body {
+    background-color: black; /* Sets the background color of the entire page to black */
+}
+
+p {
+    color: white; /* Sets paragraph text color to white */
+    font-size: 45px; /* Sets a large font size for readability */
+    font-family: "Jersey 10"; /* Uses the Jersey 10 font for paragraph text */
+}
+
+h1 {
+    color: white; /* Sets heading text color to white */
+    font-size: 60px; /* Makes the heading text very large */
+    font-family: "Jersey 10"; /* Uses the Jersey 10 font for headings */
+}
+
+img {
+    position: relative; /* Allows image elements to be positioned using top, left, etc. */
+}
+
+.orange {
+    width: 450px; /* Sets width for the orange-class image */
+    height: 250px; /* Sets height for the image */
+    border-radius: 25px; /* Rounds the corners of the image */
+    left: 250px; /* Shifts the image 250px to the right */
+    top: 100px; /* Moves the image 100px down */
+}
+
+.grape {
+    width: 550px; /* Sets width for the grape-class image */
+    height: 350px; /* Sets height for the image */
+    border-radius: 25px; /* Rounds the corners */
+    top: 100px; /* Moves the image 100px down */
+    left: 650px; /* Shifts the image 650px to the right */
+}
+
+.red {
+    font-family:"Jersey 10"; /* Applies Jersey 10 font */
+    position: relative; /* Enables relative positioning */
+    top: 350px; /* Moves the element down */
+    right: 850px; /* Moves the element left */
+    display: inline-block; /* Allows the element to size like a block while staying inline */
+    background-color: coral; /* Sets the button background color */
+    padding: 20px; /* Adds padding inside the element */
+    width: 225px; /* Sets button width */
+    height: 54px; /* Sets button height */
+    font-size: 45px; /* Large text for visibility */
+    color: black; /* Text color set to black */
+    border-radius: 20px; /* Rounds the corners of the button */
+    text-align: center; /* Centers the button text */
+}
+
+.red:hover {
+    background-color: rgb(166, 81, 50); /* Changes background on hover */
+    text-decoration: underline; /* Underlines text when hovered */
+}
+
+.pink {
+    font-family:"Jersey 10"; /* Applies Jersey 10 font */
+    position: relative; /* Enables positioning */
+    top: 350px; /* Moves element down */
+    right: 500px; /* Moves element left */
+    display: inline-block; /* Allows block-level styling inline */
+    background-color: coral; /* Button background color */
+    padding: 20px; /* Padding inside the button */
+    width: 225px; /* Button width */
+    height: 54px; /* Button height */
+    font-size: 45px; /* Large readable text */
+    color: black; /* Button text color */
+    border-radius: 20px; /* Rounded corners */
+    text-align: center; /* Centered text */
+}
+
+.pink:hover {
+    background-color: rgb(166, 81, 50); /* Darker coral background on hover */
+    text-decoration: underline; /* Underlines on hover */
+}
+
+.blue {
+    font-family:"Jersey 10"; /* Uses Jersey 10 font */
+    position: relative; /* Enables positioning */
+    top: 350px; /* Moves element down */
+    right: 150px; /* Moves element left */
+    display: inline-block; /* Allows styling as a block */
+    background-color: coral; /* Coral background */
+    padding: 20px; /* Internal spacing */
+    width: 225px; /* Width of the button */
+    height: 54px; /* Height of the button */
+    font-size: 45px; /* Large font for readability */
+    color: black; /* Text color */
+    border-radius: 20px; /* Rounded corners */
+    text-align: center; /* Centers text inside */
+}
+
+.blue:hover {
+    background-color: rgb(166, 81, 50); /* Changes background color when hovered */
+    text-decoration: underline; /* Underlines text on hover */
+}

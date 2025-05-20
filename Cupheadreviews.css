@@ -1,0 +1,128 @@
+/* Styles for all h1 elements */
+h1 {
+    font-family: "Jersey 10"; /* Uses custom font Jersey 10 */
+    color: white;             /* White text color */
+    font-size: 60px;          /* Large font size */
+}
+
+/* Styles for the whole page background */
+body {
+    background-color: black;  /* Sets background color to black */
+}
+
+/* Styles for image with class "apple" */
+.apple {
+  width: 1920px;            /* Sets image width to full HD */
+  height: 900px;            /* Sets image height */
+  position: relative;       /* Allows position adjustments */
+  right: 50px;              /* Moves image 50px to the left */
+}
+
+/* Styles for image with class "grape" */
+.grape {
+    height: 525.5px;        /* Height of image */
+    width: 500.5px;         /* Width of image */
+    position: relative;     /* Enables offset positioning */
+    left: 150px;            /* Moves right by 150px */
+    top: 50px;              /* Moves down by 50px */
+    border-radius: 25px;    /* Rounded corners */
+}
+
+/* Styles for image with class "mango" */
+.mango {
+    height: 393px;          /* Height of image */
+    width: 519px;           /* Width of image */
+    position: relative;     /* Enables offset positioning */
+    left: 500px;            /* Moves right by 500px */
+    bottom: 200px;          /* Moves up by 200px */
+    border-radius: 25px;    /* Rounded corners */
+}
+
+/* Styles for image with class "peach" */
+.peach {
+    height: 308.75px;       /* Height of image */
+    width: 515px;           /* Width of image */
+    position: relative;     /* Enables offset positioning */
+    top: 300px;             /* Moves down by 300px */
+    left: 150px;            /* Moves right by 150px */
+    border-radius: 30px;    /* Rounded corners */
+}
+
+/* Styles for image with class "melon" */
+.melon {
+    height: 285px;          /* Height of image */
+    width: 556.25px;        /* Width of image */
+    position: relative;     /* Enables offset positioning */
+    top: 75px;              /* Moves down by 75px */
+    left: 250px;            /* Moves right by 250px */
+    border-radius: 25px;    /* Rounded corners */
+}
+
+/* Styles for link/button with class "red" */
+.red {
+  font-family:"Jersey 10";  /* Uses custom font */
+  position: relative;       /* Enables offset positioning */
+  top: 350px;               /* Moves down by 350px */
+  right: 450px;             /* Moves left by 450px */
+  display: inline-block;    /* Allows block-level features but inline */
+  background-color: khaki;  /* Background color */
+  padding: 20px;            /* Padding inside the element */
+  width: 225px;             /* Width of button */
+  height: 54px;             /* Height of button */
+  font-size: 45px;          /* Large font size */
+  color: black;             /* Text color */
+  border-radius: 20px;      /* Rounded corners */
+  text-align: center;       /* Centers text horizontally */
+}
+
+/* Hover effect for .red buttons */
+.red:hover {
+    background-color: rgb(159, 144, 17); /* Darker khaki background */
+    text-decoration: underline;           /* Underlines the text */
+}
+
+/* Styles for link/button with class "pink" */
+.pink {
+    font-family:"Jersey 10";  /* Uses custom font */
+    position: relative;       /* Enables offset positioning */
+    top: 350px;               /* Moves down by 350px */
+    left: 0px;                /* No horizontal offset */
+    display: inline-block;    /* Allows block-level features but inline */
+    background-color: khaki;  /* Background color */
+    padding: 20px;            /* Padding inside the element */
+    width: 225px;             /* Width of button */
+    height: 54px;             /* Height of button */
+    font-size: 45px;          /* Large font size */
+    color: black;             /* Text color */
+    border-radius: 20px;      /* Rounded corners */
+    text-align: center;       /* Centers text horizontally */
+}
+
+/* Hover effect for .pink buttons */
+.pink:hover {
+    background-color: rgb(159, 144, 17); /* Darker khaki background */
+    text-decoration: underline;           /* Underlines the text */
+}
+
+/* Styles for link/button with class "blue" */
+.blue {
+    font-family:"Jersey 10";  /* Uses custom font */
+    position: relative;       /* Enables offset positioning */
+    top: 350px;               /* Moves down by 350px */
+    left: 425px;              /* Moves right by 425px */
+    display: inline-block;    /* Allows block-level features but inline */
+    background-color: khaki;  /* Background color */
+    padding: 20px;            /* Padding inside the element */
+    width: 225px;             /* Width of button */
+    height: 54px;             /* Height of button */
+    font-size: 45px;          /* Large font size */
+    color: black;             /* Text color */
+    border-radius: 20px;      /* Rounded corners */
+    text-align: center;       /* Centers text horizontally */
+}
+
+/* Hover effect for .blue buttons */
+.blue:hover {
+    background-color: rgb(159, 144, 17); /* Darker khaki background */
+    text-decoration: underline;           /* Underlines the text */
+}

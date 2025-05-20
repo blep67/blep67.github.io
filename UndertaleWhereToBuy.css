@@ -1,0 +1,112 @@
+body {
+    background-color: black; /* Sets the background color of the whole page to black */
+}
+
+h1 {
+    color: white; /* Sets the color of all h1 headings to white */
+    font-family: "Jersey 10"; /* Uses the 'Jersey 10' font for all h1 headings */
+    font-size: 60px; /* Sets the font size of h1 headings to 60 pixels */
+}
+
+.apple {
+    width: 1920px; /* Sets the width of elements with class 'apple' to 1920 pixels */
+    height: 800px; /* Sets the height of elements with class 'apple' to 800 pixels */
+    position: relative; /* Allows positioning relative to its normal position */
+    right: 50px; /* Moves the element 50 pixels to the left relative to its normal position */
+}
+
+.steam {
+    color: midnightblue; /* Sets text color to midnight blue */
+    font-size: 45px; /* Sets font size to 45 pixels */
+    font-family: "Jersey 10"; /* Applies 'Jersey 10' font */
+}
+
+.nintendo {
+    color: crimson; /* Sets text color to crimson red */
+    font-size: 45px; /* Sets font size to 45 pixels */
+    font-family: "Jersey 10"; /* Applies 'Jersey 10' font */
+    position: relative; /* Enables relative positioning */
+    top: 50px; /* Moves the element 50 pixels down */
+    right: 40px; /* Moves the element 40 pixels to the left */
+}
+
+.playstation {
+    color: deepskyblue; /* Sets text color to deep sky blue */
+    font-size: 45px; /* Sets font size to 45 pixels */
+    font-family: "Jersey 10"; /* Applies 'Jersey 10' font */
+    position: relative; /* Enables relative positioning */
+    top: 100px; /* Moves the element 100 pixels down */
+    right: 300px; /* Moves the element 300 pixels to the left */
+}
+
+.xbox {
+    color: olivedrab; /* Sets text color to olive drab (greenish) */
+    font-size: 45px; /* Sets font size to 45 pixels */
+    font-family: "Jersey 10"; /* Applies 'Jersey 10' font */
+    position: relative; /* Enables relative positioning */
+    top: 150px; /* Moves the element 150 pixels down */
+    right: 475px; /* Moves the element 475 pixels to the left */
+}
+
+.red {
+  font-family: "Jersey 10"; /* Uses 'Jersey 10' font */
+  position: relative; /* Enables relative positioning */
+  top: 350px; /* Moves the element 350 pixels down */
+  right: 500px; /* Moves the element 500 pixels to the left */
+  display: inline-block; /* Makes the element behave like an inline block */
+  background-color: mediumorchid; /* Sets background color to medium orchid purple */
+  padding: 20px; /* Adds 20 pixels of padding inside the element */
+  width: 225px; /* Sets the width to 225 pixels */
+  height: 54px; /* Sets the height to 54 pixels */
+  font-size: 45px; /* Sets font size to 45 pixels */
+  color: black; /* Sets text color to black */
+  border-radius: 20px; /* Rounds corners with a 20-pixel radius */
+  text-align: center; /* Centers text horizontally */
+}
+
+.red:hover {
+    background-color: rgb(120, 39, 141); /* Changes background color on hover */
+    text-decoration: underline; /* Adds underline text decoration on hover */
+}
+
+.pink {
+    font-family: "Jersey 10"; /* Uses 'Jersey 10' font */
+    position: relative; /* Enables relative positioning */
+    top: 350px; /* Moves the element 350 pixels down */
+    right: 50px; /* Moves the element 50 pixels to the left */
+    display: inline-block; /* Makes the element behave like an inline block */
+    background-color: mediumorchid; /* Sets background color to medium orchid purple */
+    padding: 20px; /* Adds 20 pixels of padding inside the element */
+    width: 225px; /* Sets the width to 225 pixels */
+    height: 54px; /* Sets the height to 54 pixels */
+    font-size: 45px; /* Sets font size to 45 pixels */
+    color: black; /* Sets text color to black */
+    border-radius: 20px; /* Rounds corners with a 20-pixel radius */
+    text-align: center; /* Centers text horizontally */
+}
+
+.pink:hover {
+    background-color: rgb(120, 39, 141); /* Changes background color on hover */
+    text-decoration: underline; /* Adds underline text decoration on hover */
+}
+
+.blue {
+    font-family: "Jersey 10"; /* Uses 'Jersey 10' font */
+    position: relative; /* Enables relative positioning */
+    top: 350px; /* Moves the element 350 pixels down */
+    left: 375px; /* Moves the element 375 pixels to the right */
+    display: inline-block; /* Makes the element behave like an inline block */
+    background-color: mediumorchid; /* Sets background color to medium orchid purple */
+    padding: 20px; /* Adds 20 pixels of padding inside the element */
+    width: 225px; /* Sets the width to 225 pixels */
+    height: 54px; /* Sets the height to 54 pixels */
+    font-size: 45px; /* Sets font size to 45 pixels */
+    color: black; /* Sets text color to black */
+    border-radius: 20px; /* Rounds corners with a 20-pixel radius */
+    text-align: center; /* Centers text horizontally */
+}
+
+.blue:hover {
+    background-color: rgb(120, 39, 141); /* Changes background color on hover */
+    text-decoration: underline; /* Adds underline text decoration on hover */
+}

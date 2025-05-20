@@ -1,0 +1,163 @@
+h1 {
+    color: aliceblue; /* Sets the text color of all h1 elements to aliceblue (a light bluish white) */
+    font-family: "Jersey 10"; /* Applies the Jersey 10 font to all h1 elements */
+    text-align: center; /* Centers the text horizontally inside the h1 */
+    font-size: 45px; /* Sets the font size of h1 text to 45 pixels */
+    position: relative; /* Positions the h1 element relative to its normal position */
+    bottom: 175px; /* Moves the h1 element 175px upwards relative to its normal position */
+  }
+
+img {
+    height: 175px; /* Sets the height of all images to 175 pixels */
+    width: 175px; /* Sets the width of all images to 175 pixels */
+    text-align: center; /* Attempts to center the image text, though this property doesn’t apply to images */
+    border-radius: 10px; /* Rounds the corners of all images by 10 pixels */
+  }
+
+body {
+    background-color: black; /* Sets the background color of the whole page to black */
+    border-top: 125px solid #8B42D0; /* Adds a 125px solid purple border at the top of the body */
+    margin: 0; /* Removes default margin around the body */
+  }
+
+.apple {
+    width: 1920px; /* Sets the width of the element with class apple to 1920 pixels */
+    height: 250px; /* Sets the height of the apple element to 250 pixels */
+  }
+
+.peach {
+    position: relative; /* Enables positioning relative to its normal place */
+    left: 915px; /* Moves the element 915px to the right */
+  }
+
+.mango {
+  position: relative; /* Enables relative positioning */
+  left: 700px; /* Moves the element 700px to the right */
+}
+
+.kiwi {
+  position: relative; /* Enables relative positioning */
+  left: 485px; /* Moves the element 485px to the right */
+}
+
+.grape {
+  position: relative; /* Enables relative positioning */
+  left: 305px; /* Moves the element 305px to the right */
+}
+
+.orange {
+  position: relative; /* Enables relative positioning */
+  left: 100px; /* Moves the element 100px to the right */
+}
+
+.red {
+  position: relative; /* Enables relative positioning */
+  right: 775px; /* Moves the element 775px to the left */
+  top: 90px; /* Moves the element 90px down */
+  display: inline-block; /* Makes the element behave like an inline block for width and height */
+  background-color: indianred; /* Sets the background color to indian red */
+  padding: 20px; /* Adds 20px padding inside the element */
+  width: 100px; /* Sets the width to 100 pixels */
+  height: 30px; /* Sets the height to 30 pixels */
+  color: black; /* Sets the text color to black */
+  font-size: 25px; /* Sets the font size to 25 pixels */
+  font-family: "Jersey 10"; /* Applies the Jersey 10 font */
+  border-radius: 20px; /* Rounds the corners with a radius of 20 pixels */
+  text-align: center; /* Centers the text inside the element */
+}
+
+.red:hover {
+  background-color: rgb(171, 61, 61); /* Changes background color when hovered over */
+  text-decoration: underline; /* Underlines the text on hover */
+}
+
+.pink {
+  position: relative; /* Enables relative positioning */
+  right: 540px; /* Moves the element 540px to the left */
+  top: 90px; /* Moves the element 90px down */
+  display: inline-block; /* Makes the element behave like an inline block */
+  background-color: khaki; /* Sets background color to khaki */
+  padding: 20px; /* Adds 20px padding inside */
+  width: 100px; /* Sets width to 100 pixels */
+  height: 30px; /* Sets height to 30 pixels */
+  color: black; /* Text color black */
+  font-size: 20px; /* Font size 20 pixels */
+  font-family: "Jersey 10"; /* Jersey 10 font applied */
+  border-radius: 25px; /* Rounded corners with radius 25 pixels */
+  text-align: center; /* Center-aligns text */
+}
+
+.pink:hover {
+  background-color: rgb(159, 144, 17); /* Changes background color on hover */
+  text-decoration: underline; /* Underlines text on hover */
+}
+
+.green {
+  position: relative; /* Enables relative positioning */
+  right: 320px; /* Moves element 320px to the left */
+  top: 90px; /* Moves element 90px down */
+  display: inline-block; /* Inline-block display */
+  background-color: cadetblue; /* Background color set to cadet blue */
+  padding: 20px; /* Padding of 20 pixels */
+  width: 100px; /* Width 100 pixels */
+  height: 30px; /* Height 30 pixels */
+  color: black; /* Text color black */
+  font-size: 20px; /* Font size 20 pixels */
+  font-family: "Jersey 10"; /* Font family Jersey 10 */
+  border-radius: 25px; /* Rounded corners radius 25 pixels */
+  text-align: center; /* Center text */
+}
+
+.green:hover {
+  background-color: rgb(31, 139, 143); /* Background color changes on hover */
+  text-decoration: underline; /* Underlines text on hover */
+}
+
+.blue {
+  position: relative; /* Enables relative positioning */
+  right: 60px; /* Moves element 60px to the left */
+  top: 90px; /* Moves element 90px down */
+  display: inline-block; /* Inline-block display */
+  background-color: coral; /* Background color coral */
+  padding: 20px; /* Padding 20 pixels */
+  width: 100px; /* Width 100 pixels */
+  height: 30px; /* Height 30 pixels */
+  color: black; /* Text color black */
+  font-size: 20px; /* Font size 20 pixels */
+  font-family: "Jersey 10"; /* Font family Jersey 10 */
+  border-radius: 25px; /* Rounded corners radius 25 pixels */
+  text-align: center; /* Center text */
+}
+
+.blue:hover {
+  background-color: rgb(166, 81, 50); /* Background color changes on hover */
+  text-decoration: underline; /* Underlines text on hover */
+}
+
+.purple {
+  position: relative; /* Enables relative positioning */
+  left: 190px; /* Moves element 190px to the right */
+  top: 90px; /* Moves element 90px down */
+  display: inline-block; /* Inline-block display */
+  background-color: mediumorchid; /* Background color medium orchid */
+  padding: 20px; /* Padding 20 pixels */
+  width: 100px; /* Width 100 pixels */
+  height: 30px; /* Height 30 pixels */
+  color: black; /* Text color black */
+  font-size: 20px; /* Font size 20 pixels */
+  font-family: "Jersey 10"; /* Font family Jersey 10 */
+  border-radius: 25px; /* Rounded corners radius 25 pixels */
+  text-align: center; /* Center text */
+}
+
+.purple:hover {
+  background-color: rgb(120, 39, 141); /* Background color changes on hover */
+  text-decoration: underline; /* Underlines text on hover */
+}
+
+p {
+  font-size: 20px; /* Sets font size for all paragraphs */
+  position: relative; /* Enables relative positioning */
+  color: aliceblue; /* Sets text color to aliceblue */
+  top: 200px; /* Moves paragraphs 200px down */
+}

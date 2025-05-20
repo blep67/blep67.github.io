@@ -1,0 +1,112 @@
+body {
+    background-color: black; /* Sets the background color of the entire page to black */
+}
+
+h1 {
+    color: white; /* Sets the text color of all <h1> elements to white */
+    font-family: "Jersey 10"; /* Applies the Jersey 10 font */
+    font-size: 60px; /* Sets the size of the heading text */
+}
+
+.apple {
+    width: 1920px; /* Sets the width of the image with class "apple" */
+    height: 800px; /* Sets the height of the image */
+    position: relative; /* Allows positioning relative to its normal position */
+    right: 50px; /* Moves the image 50px to the left */
+}
+
+.steam {
+    color: midnightblue; /* Sets the text color to midnight blue */
+    font-size: 45px; /* Sets the font size */
+    font-family: "Jersey 10"; /* Applies the Jersey 10 font */
+}
+
+.nintendo {
+    color: crimson; /* Sets the text color to crimson */
+    font-size: 45px; /* Sets the font size */
+    font-family: "Jersey 10"; /* Applies the Jersey 10 font */
+    position: relative; /* Allows positioning relative to its normal spot */
+    top: 50px; /* Moves the element down by 50px */
+    right: 40px; /* Moves the element left by 40px */
+}
+
+.playstation {
+    color: deepskyblue; /* Sets the text color to deepskyblue */
+    font-size: 45px; /* Sets the font size */
+    font-family: "Jersey 10"; /* Applies the Jersey 10 font */
+    position: relative; /* Enables relative positioning */
+    top: 100px; /* Moves the element down by 100px */
+    right: 300px; /* Moves the element left by 300px */
+}
+
+.xbox {
+    color: olivedrab; /* Sets the text color to olivedrab */
+    font-size: 45px; /* Sets the font size */
+    font-family: "Jersey 10"; /* Applies the Jersey 10 font */
+    position: relative; /* Enables relative positioning */
+    top: 150px; /* Moves the element down by 150px */
+    right: 475px; /* Moves the element left by 475px */
+}
+
+.red {
+    font-family: "Jersey 10"; /* Applies the Jersey 10 font */
+    position: relative; /* Enables positioning of the button */
+    top: 350px; /* Moves the element down by 350px */
+    right: 500px; /* Moves the element left by 500px */
+    display: inline-block; /* Allows padding and width/height */
+    background-color: coral; /* Sets the background color */
+    padding: 20px; /* Adds space inside the button */
+    width: 225px; /* Sets button width */
+    height: 54px; /* Sets button height */
+    font-size: 45px; /* Sets the font size */
+    color: black; /* Sets the text color */
+    border-radius: 20px; /* Rounds the corners */
+    text-align: center; /* Centers the text */
+}
+
+.red:hover {
+    background-color: rgb(166, 81, 50); /* Changes background color on hover */
+    text-decoration: underline; /* Underlines text when hovered */
+}
+
+.pink {
+    font-family: "Jersey 10"; /* Applies the Jersey 10 font */
+    position: relative; /* Enables relative positioning */
+    top: 350px; /* Moves the element down by 350px */
+    right: 50px; /* Moves the element left by 50px */
+    display: inline-block; /* Allows padding and width/height */
+    background-color: coral; /* Sets the background color */
+    padding: 20px; /* Adds space inside the button */
+    width: 225px; /* Sets button width */
+    height: 54px; /* Sets button height */
+    font-size: 45px; /* Sets the font size */
+    color: black; /* Sets the text color */
+    border-radius: 20px; /* Rounds the corners */
+    text-align: center; /* Centers the text */
+}
+
+.pink:hover {
+    background-color: rgb(166, 81, 50); /* Changes background on hover */
+    text-decoration: underline; /* Underlines text on hover */
+}
+
+.blue {
+    font-family: "Jersey 10"; /* Applies the Jersey 10 font */
+    position: relative; /* Enables relative positioning */
+    top: 350px; /* Moves the element down by 350px */
+    left: 375px; /* Moves the element right by 375px */
+    display: inline-block; /* Allows padding and width/height */
+    background-color: coral; /* Sets the background color */
+    padding: 20px; /* Adds space inside the button */
+    width: 225px; /* Sets button width */
+    height: 54px; /* Sets button height */
+    font-size: 45px; /* Sets the font size */
+    color: black; /* Sets the text color */
+    border-radius: 20px; /* Rounds the corners */
+    text-align: center; /* Centers the text */
+}
+
+.blue:hover {
+    background-color: rgb(166, 81, 50); /* Changes background on hover */
+    text-decoration: underline; /* Underlines text on hover */
+}

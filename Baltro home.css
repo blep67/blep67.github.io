@@ -1,0 +1,118 @@
+/* Styles for an image with class "apple" (likely a banner or large image) */
+.apple {
+    width: 1920px;           /* Full HD width */
+    height: 900px;           /* Height of the image */
+    position: relative;      /* Enables positioning adjustments */
+    right: 50px;             /* Moves the image 50px to the left */
+}
+
+/* Styles for the page background */
+body {
+    background-color: black; /* Sets the entire page background to black */
+}
+
+/* Styles for all paragraph text */
+p {
+    color: white;             /* Sets paragraph text color to white */
+    font-size: 45px;          /* Large readable font size */
+    font-family: "Jersey 10"; /* Applies custom font */
+}
+
+/* Styles for all h1 headers */
+h1 {
+    color: white;             /* White text for headings */
+    font-size: 60px;          /* Extra large font size for emphasis */
+    font-family: "Jersey 10"; /* Uses the same custom font */
+}
+
+/* Styles for all <img> elements */
+img {
+    position: relative;       /* Allows offset positioning for images */
+}
+
+/* Styles for image with class "orange" */
+.orange {
+    width: 350px;             /* Sets image width */
+    height: 250px;            /* Sets image height */
+    border-radius: 25px;      /* Rounds the image corners */
+    left: 400px;              /* Moves image 400px to the right */
+    top: 100px;               /* Moves image 100px down */
+}
+
+/* Styles for image with class "grape" */
+.grape {
+    width: 350px;             /* Sets image width */
+    height: 250px;            /* Sets image height */
+    border-radius: 25px;      /* Rounds the image corners */
+    top: 100px;               /* Moves image 100px down */
+    left: 800px;              /* Moves image 800px to the right */
+}
+
+/* Styles for link/button with class "red" */
+.red {
+    font-family:"Jersey 10";       /* Applies decorative font */
+    position: relative;            /* Enables offset-based positioning */
+    top: 350px;                    /* Moves element 350px down */
+    right: 600px;                  /* Moves element 600px to the left */
+    display: inline-block;         /* Allows block formatting inline */
+    background-color: indianred;  /* Sets background color */
+    padding: 20px;                 /* Adds internal spacing */
+    width: 225px;                  /* Fixed width */
+    height: 54px;                  /* Fixed height */
+    font-size: 45px;               /* Large text */
+    color: black;                  /* Text color */
+    border-radius: 20px;           /* Rounded corners */
+    text-align: center;            /* Centers the text */
+}
+
+/* Hover effect for the red button */
+.red:hover {
+    background-color: rgb(171, 61, 61); /* Changes background on hover */
+    text-decoration: underline;        /* Underlines text on hover */
+}
+
+/* Styles for link/button with class "pink" */
+.pink {
+    font-family:"Jersey 10";       /* Applies decorative font */
+    position: relative;            /* Enables offset-based positioning */
+    top: 350px;                    /* Moves element down */
+    right: 200px;                  /* Moves element to the left */
+    display: inline-block;         /* Allows block formatting inline */
+    background-color: indianred;  /* Sets background color */
+    padding: 20px;                 /* Adds internal spacing */
+    width: 225px;                  /* Fixed width */
+    height: 54px;                  /* Fixed height */
+    font-size: 45px;               /* Large text */
+    color: black;                  /* Text color */
+    border-radius: 20px;           /* Rounded corners */
+    text-align: center;            /* Centers the text */
+}
+
+/* Hover effect for the pink button */
+.pink:hover {
+    background-color: rgb(171, 61, 61); /* Changes background on hover */
+    text-decoration: underline;        /* Underlines text on hover */
+}
+
+/* Styles for link/button with class "blue" */
+.blue {
+    font-family:"Jersey 10";       /* Applies decorative font */
+    position: relative;            /* Enables offset-based positioning */
+    top: 350px;                    /* Moves element down */
+    left: 250px;                   /* Moves element to the right */
+    display: inline-block;         /* Allows block formatting inline */
+    background-color: indianred;  /* Sets background color */
+    padding: 20px;                 /* Adds internal spacing */
+    width: 225px;                  /* Fixed width */
+    height: 54px;                  /* Fixed height */
+    font-size: 45px;               /* Large text */
+    color: black;                  /* Text color */
+    border-radius: 20px;           /* Rounded corners */
+    text-align: center;            /* Centers the text */
+}
+
+/* Hover effect for the blue button */
+.blue:hover {
+    background-color: rgb(171, 61, 61); /* Changes background on hover */
+    text-decoration: underline;        /* Underlines text on hover */
+}

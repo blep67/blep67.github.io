@@ -1,0 +1,128 @@
+/* Style for all <h1> headings */
+h1 {
+    font-family: "Jersey 10";  /* Use the "Jersey 10" font */
+    color: white;              /* Set text color to white */
+    font-size: 60px;           /* Set font size to 60 pixels */
+}
+
+/* Style for the body element */
+body {
+    background-color: black;  /* Set the background color of the page to black */
+}
+
+/* Style for elements with class "apple" */
+.apple {
+    width: 1920px;             /* Set width to 1920 pixels */
+    height: 900px;             /* Set height to 900 pixels */
+    position: relative;        /* Enable positioning with top/right/left/bottom */
+    right: 50px;               /* Shift 50 pixels to the left */
+}
+
+/* Style for elements with class "grape" */
+.grape {
+    height: 525.5px;           /* Set height to 525.5 pixels */
+    width: 442.5px;            /* Set width to 442.5 pixels */
+    position: relative;        /* Enable positioning */
+    left: 150px;               /* Move element 150 pixels to the right */
+    top: 50px;                 /* Move element 50 pixels down */
+    border-radius: 25px;       /* Round the corners with 25px radius */
+}
+
+/* Style for elements with class "mango" */
+.mango {
+    height: 393px;             /* Set height to 393 pixels */
+    width: 519px;              /* Set width to 519 pixels */
+    position: relative;        /* Enable positioning */
+    left: 600px;               /* Move element 600 pixels to the right */
+    bottom: 200px;             /* Move element 200 pixels up */
+    border-radius: 25px;       /* Round the corners with 25px radius */
+}
+
+/* Style for elements with class "peach" */
+.peach {
+    height: 308.75px;          /* Set height to 308.75 pixels */
+    width: 515px;              /* Set width to 515 pixels */
+    position: relative;        /* Enable positioning */
+    top: 400px;                /* Move element 400 pixels down */
+    left: 150px;               /* Move element 150 pixels to the right */
+    border-radius: 30px;       /* Round the corners with 30px radius */
+}
+
+/* Style for elements with class "melon" */
+.melon {
+    height: 285px;             /* Set height to 285 pixels */
+    width: 556.25px;           /* Set width to 556.25 pixels */
+    position: relative;        /* Enable positioning */
+    top: 150px;                /* Move element 150 pixels down */
+    left: 350px;               /* Move element 350 pixels to the right */
+    border-radius: 25px;       /* Round the corners with 25px radius */
+}
+
+/* Style for elements with class "red" */
+.red {
+    font-family: "Jersey 10";  /* Use the "Jersey 10" font */
+    position: relative;        /* Enable positioning */
+    top: 350px;                /* Move element 350 pixels down */
+    right: 450px;              /* Move element 450 pixels to the left */
+    display: inline-block;     /* Display as inline-block (block-level with inline behavior) */
+    background-color: cadetblue; /* Set background color to cadet blue */
+    padding: 20px;             /* Add 20 pixels of padding on all sides */
+    width: 225px;              /* Set width to 225 pixels */
+    height: 54px;              /* Set height to 54 pixels */
+    font-size: 45px;           /* Set font size to 45 pixels */
+    color: black;              /* Set text color to black */
+    border-radius: 20px;       /* Round the corners with 20px radius */
+    text-align: center;        /* Center the text horizontally */
+}
+
+/* Hover effect for "red" class */
+.red:hover {
+    background-color: rgb(31, 139, 143); /* Change background color on hover */
+    text-decoration: underline;          /* Underline text on hover */
+}
+
+/* Style for elements with class "pink" */
+.pink {
+    font-family: "Jersey 10";  /* Use the "Jersey 10" font */
+    position: relative;        /* Enable positioning */
+    top: 350px;                /* Move element 350 pixels down */
+    left: 0px;                 /* No horizontal movement */
+    display: inline-block;     /* Display as inline-block */
+    background-color: cadetblue; /* Set background color to cadet blue */
+    padding: 20px;             /* Add 20 pixels of padding */
+    width: 225px;              /* Set width to 225 pixels */
+    height: 54px;              /* Set height to 54 pixels */
+    font-size: 45px;           /* Set font size to 45 pixels */
+    color: black;              /* Set text color to black */
+    border-radius: 20px;       /* Round corners with 20px radius */
+    text-align: center;        /* Center text horizontally */
+}
+
+/* Hover effect for "pink" class */
+.pink:hover {
+    background-color: rgb(31, 139, 143); /* Change background color on hover */
+    text-decoration: underline;          /* Underline text on hover */
+}
+
+/* Style for elements with class "blue" */
+.blue {
+    font-family: "Jersey 10";  /* Use the "Jersey 10" font */
+    position: relative;        /* Enable positioning */
+    top: 350px;                /* Move element 350 pixels down */
+    left: 425px;               /* Move element 425 pixels to the right */
+    display: inline-block;     /* Display as inline-block */
+    background-color: cadetblue; /* Set background color to cadet blue */
+    padding: 20px;             /* Add 20 pixels of padding */
+    width: 225px;              /* Set width to 225 pixels */
+    height: 54px;              /* Set height to 54 pixels */
+    font-size: 45px;           /* Set font size to 45 pixels */
+    color: black;              /* Set text color to black */
+    border-radius: 20px;       /* Round corners with 20px radius */
+    text-align: center;        /* Center text horizontally */
+}
+
+/* Hover effect for "blue" class */
+.blue:hover {
+    background-color: rgb(31, 139, 143); /* Change background color on hover */
+    text-decoration: underline;          /* Underline text on hover */
+}

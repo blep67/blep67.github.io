@@ -1,0 +1,128 @@
+/* Style for all <h1> elements */
+h1 {
+    font-family: "Jersey 10"; /* Sets custom font */
+    color: white;             /* White text color */
+    font-size: 60px;          /* Large font size */
+} 
+
+/* Style for the <body> element */
+body {
+    background-color: black; /* Sets background color to black */
+}
+
+/* Style for elements with class "apple" */
+.apple {
+    width: 1920px;           /* Full HD width */
+    height: 800px;           /* Set height */
+    position: relative;      /* Allows positioning with offset */
+    right: 50px;             /* Moves element 50px to the left */
+} 
+
+/* Style for elements with class "grape" */
+.grape {
+    height: 350.5px;         /* Set specific height */
+    width: 550px;            /* Set specific width */
+    position: relative;      /* Enables offset positioning */
+    left: 100px;             /* Moves element 100px to the right */
+    top: 50px;               /* Moves element 50px down */
+    border-radius: 25px;     /* Rounded corners */
+} 
+
+/* Style for elements with class "mango" */
+.mango {
+    height: 325px;           /* Set height */
+    width: 525px;            /* Set width */
+    position: relative;      /* Enables offset positioning */
+    left: 325px;             /* Moves element 325px to the right */
+    bottom: 50px;            /* Moves element 50px up */
+    border-radius: 25px;     /* Rounded corners */
+}
+
+/* Style for elements with class "peach" */
+.peach {
+    height: 308.75px;        /* Set height */
+    width: 515px;            /* Set width */
+    position: relative;      /* Enables offset positioning */
+    top: 300px;              /* Moves element 300px down */
+    left: 150px;             /* Moves element 150px to the right */
+    border-radius: 30px;     /* More rounded corners */
+}
+
+/* Style for elements with class "melon" */
+.melon {
+    height: 285px;           /* Set height */
+    width: 556.25px;         /* Set width */
+    position: relative;      /* Enables offset positioning */
+    top: 100px;              /* Moves element 100px down */
+    left: 250px;             /* Moves element 250px to the right */
+    border-radius: 25px;     /* Rounded corners */
+}
+
+/* Style for elements with class "red" */
+.red {
+    font-family:"Jersey 10";      /* Sets custom font */
+    position: relative;           /* Enables offset positioning */
+    top: 350px;                   /* Moves element 350px down */
+    right: 450px;                 /* Moves element 450px to the left */
+    display: inline-block;        /* Allows width/height and positioning */
+    background-color: coral;      /* Coral background */
+    padding: 20px;                /* Inner spacing */
+    width: 225px;                 /* Set width */
+    height: 54px;                 /* Set height */
+    font-size: 45px;              /* Large text size */
+    color: black;                 /* Black text color */
+    border-radius: 20px;          /* Rounded corners */
+    text-align: center;           /* Center-aligns text */
+} 
+
+/* Hover effect for "red" class elements */
+.red:hover {
+    background-color: rgb(166, 81, 50); /* Darker coral on hover */
+    text-decoration: underline;         /* Underline text on hover */
+} 
+
+/* Style for elements with class "pink" */
+.pink {
+    font-family:"Jersey 10";      /* Sets custom font */
+    position: relative;           /* Enables offset positioning */
+    top: 350px;                   /* Moves element 350px down */
+    left: 0px;                    /* No horizontal shift */
+    display: inline-block;        /* Allows width/height and positioning */
+    background-color: coral;      /* Coral background */
+    padding: 20px;                /* Inner spacing */
+    width: 225px;                 /* Set width */
+    height: 54px;                 /* Set height */
+    font-size: 45px;              /* Large text size */
+    color: black;                 /* Black text color */
+    border-radius: 20px;          /* Rounded corners */
+    text-align: center;           /* Center-aligns text */
+}
+
+/* Hover effect for "pink" class elements */
+.pink:hover {
+    background-color: rgb(166, 81, 50); /* Darker coral on hover */
+    text-decoration: underline;         /* Underline text on hover */
+}
+
+/* Style for elements with class "blue" */
+.blue {
+    font-family:"Jersey 10";      /* Sets custom font */
+    position: relative;           /* Enables offset positioning */
+    top: 350px;                   /* Moves element 350px down */
+    left: 425px;                  /* Moves element 425px to the right */
+    display: inline-block;        /* Allows width/height and positioning */
+    background-color: coral;      /* Coral background */
+    padding: 20px;                /* Inner spacing */
+    width: 225px;                 /* Set width */
+    height: 54px;                 /* Set height */
+    font-size: 45px;              /* Large text size */
+    color: black;                 /* Black text color */
+    border-radius: 20px;          /* Rounded corners */
+    text-align: center;           /* Center-aligns text */
+}
+
+/* Hover effect for "blue" class elements */
+.blue:hover {
+    background-color: rgb(166, 81, 50); /* Darker coral on hover */
+    text-decoration: underline;         /* Underline text on hover */
+}

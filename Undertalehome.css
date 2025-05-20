@@ -1,0 +1,105 @@
+.apple {
+    width: 1920px; /* Set the width of elements with class "apple" */
+    height: 800px; /* Set the height */
+    position: relative; /* Position relative for adjusting position */
+    right: 50px; /* Move element 50px to the left from its normal position */
+}
+
+body {
+    background-color: black; /* Set the page background color to black */
+}
+
+p {
+    color: white; /* Set paragraph text color to white */
+    font-size: 45px; /* Set font size */
+    font-family: "Jersey 10"; /* Apply the "Jersey 10" font */
+}
+
+h1 {
+    color: white; /* Set heading text color to white */
+    font-size: 60px; /* Set font size for h1 */
+    font-family: "Jersey 10"; /* Apply the "Jersey 10" font */
+}
+
+img {
+    position: relative; /* Set relative positioning for all images */
+}
+
+.orange {
+    width: 350px; /* Set width for elements with class "orange" */
+    height: 250px; /* Set height */
+    border-radius: 25px; /* Round corners with 25px radius */
+    left: 400px; /* Move element 400px right from normal position */
+    top: 100px; /* Move element 100px down from normal position */
+}
+
+.grape {
+    width: 350px; /* Set width for elements with class "grape" */
+    height: 250px; /* Set height */
+    border-radius: 25px; /* Round corners with 25px radius */
+    top: 100px; /* Move element 100px down */
+    left: 800px; /* Move element 800px right */
+}
+
+.red {
+    font-family: "Jersey 10"; /* Apply the "Jersey 10" font */
+    position: relative; /* Set relative positioning */
+    top: 350px; /* Move element 350px down */
+    right: 600px; /* Move element 600px left */
+    display: inline-block; /* Display as inline-block for size and padding */
+    background-color: mediumorchid; /* Set background color */
+    padding: 20px; /* Add padding inside the element */
+    width: 225px; /* Set fixed width */
+    height: 54px; /* Set fixed height */
+    font-size: 45px; /* Set font size */
+    color: black; /* Set text color */
+    border-radius: 20px; /* Round corners with 20px radius */
+    text-align: center; /* Center the text inside the element */
+}
+
+.red:hover {
+    background-color: rgb(120, 39, 141); /* Change background color on hover */
+    text-decoration: underline; /* Underline text on hover */
+}
+
+.pink {
+    font-family: "Jersey 10"; /* Apply the "Jersey 10" font */
+    position: relative; /* Set relative positioning */
+    top: 350px; /* Move element 350px down */
+    right: 200px; /* Move element 200px left */
+    display: inline-block; /* Display as inline-block */
+    background-color: mediumorchid; /* Set background color */
+    padding: 20px; /* Add padding */
+    width: 225px; /* Set fixed width */
+    height: 54px; /* Set fixed height */
+    font-size: 45px; /* Set font size */
+    color: black; /* Set text color */
+    border-radius: 20px; /* Round corners */
+    text-align: center; /* Center text */
+}
+
+.pink:hover {
+    background-color: rgb(120, 39, 141); /* Change background color on hover */
+    text-decoration: underline; /* Underline text on hover */
+}
+
+.blue {
+    font-family: "Jersey 10"; /* Apply the "Jersey 10" font */
+    position: relative; /* Set relative positioning */
+    top: 350px; /* Move element 350px down */
+    left: 250px; /* Move element 250px right */
+    display: inline-block; /* Display as inline-block */
+    background-color: mediumorchid; /* Set background color */
+    padding: 20px; /* Add padding */
+    width: 225px; /* Set fixed width */
+    height: 54px; /* Set fixed height */
+    font-size: 45px; /* Set font size */
+    color: black; /* Set text color */
+    border-radius: 20px; /* Round corners */
+    text-align: center; /* Center text */
+}
+
+.blue:hover {
+    background-color: rgb(120, 39, 141); /* Change background color on hover */
+    text-decoration: underline; /* Underline text on hover */
+}

@@ -1,0 +1,128 @@
+/* Style for all <h1> headers */
+h1 {
+    font-family: "Jersey 10";  /* Sets a custom, decorative font */
+    color: white;              /* Sets the text color to white */
+    font-size: 60px;           /* Sets a large font size */
+}
+
+/* Style for the body element */
+body {
+    background-color: black;   /* Sets the background color to black */
+}
+
+/* Styles for elements with class "apple" */
+.apple {
+    width: 1920px;             /* Full HD width */
+    height: 900px;             /* Height of the container */
+    position: relative;        /* Enables positioning using offsets */
+    right: 50px;               /* Shifts the element 50px to the left */
+}
+
+/* Styles for elements with class "grape" */
+.grape {
+    height: 525.5px;           /* Sets the element height */
+    width: 442.5px;            /* Sets the element width */
+    position: relative;        /* Enables offset-based positioning */
+    left: 150px;               /* Moves the element 150px to the right */
+    top: 50px;                 /* Moves the element 50px down */
+    border-radius: 25px;       /* Applies rounded corners */
+}
+
+/* Styles for elements with class "mango" */
+.mango {
+    height: 393px;             /* Sets the element height */
+    width: 519px;              /* Sets the element width */
+    position: relative;        /* Enables offset-based positioning */
+    left: 600px;               /* Moves the element 600px to the right */
+    bottom: 200px;             /* Moves the element 200px up */
+    border-radius: 25px;       /* Applies rounded corners */
+}
+
+/* Styles for elements with class "peach" */
+.peach {
+    height: 308.75px;          /* Sets the element height */
+    width: 515px;              /* Sets the element width */
+    position: relative;        /* Enables offset-based positioning */
+    top: 400px;                /* Moves the element 400px down */
+    left: 150px;               /* Moves the element 150px to the right */
+    border-radius: 30px;       /* Applies more rounded corners */
+}
+
+/* Styles for elements with class "melon" */
+.melon {
+    height: 285px;             /* Sets the element height */
+    width: 556.25px;           /* Sets the element width */
+    position: relative;        /* Enables offset-based positioning */
+    top: 150px;                /* Moves the element 150px down */
+    left: 350px;               /* Moves the element 350px to the right */
+    border-radius: 25px;       /* Applies rounded corners */
+}
+
+/* Styles for elements with class "red" */
+.red {
+    font-family:"Jersey 10";       /* Uses the Jersey 10 font */
+    position: relative;            /* Enables offset-based positioning */
+    top: 350px;                    /* Moves the element 350px down */
+    right: 450px;                  /* Moves the element 450px to the left */
+    display: inline-block;         /* Allows block styling within inline context */
+    background-color: indianred;  /* Sets background color */
+    padding: 20px;                 /* Adds inner spacing */
+    width: 225px;                  /* Sets button width */
+    height: 54px;                  /* Sets button height */
+    font-size: 45px;               /* Large font size */
+    color: black;                  /* Text color */
+    border-radius: 20px;           /* Rounds the corners */
+    text-align: center;            /* Centers the text */
+}
+
+/* Hover effect for elements with class "red" */
+.red:hover {
+    background-color: rgb(171, 61, 61); /* Darker shade on hover */
+    text-decoration: underline;        /* Underlines text on hover */
+}
+
+/* Styles for elements with class "pink" */
+.pink {
+    font-family:"Jersey 10";       /* Uses the Jersey 10 font */
+    position: relative;            /* Enables offset-based positioning */
+    top: 350px;                    /* Moves the element 350px down */
+    left: 0px;                     /* No horizontal movement */
+    display: inline-block;         /* Allows block styling within inline context */
+    background-color: indianred;  /* Sets background color */
+    padding: 20px;                 /* Adds inner spacing */
+    width: 225px;                  /* Sets button width */
+    height: 54px;                  /* Sets button height */
+    font-size: 45px;               /* Large font size */
+    color: black;                  /* Text color */
+    border-radius: 20px;           /* Rounds the corners */
+    text-align: center;            /* Centers the text */
+}
+
+/* Hover effect for elements with class "pink" */
+.pink:hover {
+    background-color: rgb(171, 61, 61); /* Darker shade on hover */
+    text-decoration: underline;        /* Underlines text on hover */
+}
+
+/* Styles for elements with class "blue" */
+.blue {
+    font-family:"Jersey 10";       /* Uses the Jersey 10 font */
+    position: relative;            /* Enables offset-based positioning */
+    top: 350px;                    /* Moves the element 350px down */
+    left: 425px;                   /* Moves the element 425px to the right */
+    display: inline-block;         /* Allows block styling within inline context */
+    background-color: indianred;  /* Sets background color */
+    padding: 20px;                 /* Adds inner spacing */
+    width: 225px;                  /* Sets button width */
+    height: 54px;                  /* Sets button height */
+    font-size: 45px;               /* Large font size */
+    color: black;                  /* Text color */
+    border-radius: 20px;           /* Rounds the corners */
+    text-align: center;            /* Centers the text */
+}
+
+/* Hover effect for elements with class "blue" */
+.blue:hover {
+    background-color: rgb(171, 61, 61); /* Darker shade on hover */
+    text-decoration: underline;        /* Underlines text on hover */
+}

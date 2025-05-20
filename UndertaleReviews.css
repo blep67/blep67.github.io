@@ -1,0 +1,115 @@
+h1 {
+    font-family: "Jersey 10"; /* Sets the font family to 'Jersey 10' for all h1 elements */
+    color: white; /* Makes the text color white */
+    font-size: 60px; /* Sets the font size to 60 pixels */
+}
+
+body {
+    background-color: black; /* Sets the background color of the page to black */
+}
+
+.apple {
+    width: 1920px; /* Sets the width of elements with class 'apple' to 1920 pixels */
+    height: 800px; /* Sets the height to 800 pixels */
+    position: relative; /* Allows positioning relative to its normal position */
+    right: 50px; /* Moves the element 50 pixels to the left (relative to its normal position) */
+}
+
+.grape {
+    height: 350.5px; /* Sets height to 350.5 pixels */
+    width: 550px; /* Sets width to 550 pixels */
+    position: relative; /* Enables relative positioning */
+    left: 150px; /* Moves element 150 pixels to the right */
+    top: 50px; /* Moves element 50 pixels down */
+    border-radius: 25px; /* Rounds corners with a radius of 25 pixels */
+}
+
+.mango {
+    height: 250px; /* Sets height to 250 pixels */
+    width: 600px; /* Sets width to 600 pixels */
+    position: relative; /* Enables relative positioning */
+    left: 300px; /* Moves element 300 pixels to the right */
+    bottom: 100px; /* Moves element 100 pixels up */
+    border-radius: 25px; /* Rounds corners with a radius of 25 pixels */
+}
+
+.peach {
+    height: 308.75px; /* Sets height to 308.75 pixels */
+    width: 515px; /* Sets width to 515 pixels */
+    position: relative; /* Enables relative positioning */
+    top: 400px; /* Moves element 400 pixels down */
+    left: 0px; /* No horizontal movement */
+    border-radius: 30px; /* Rounds corners with a radius of 30 pixels */
+}
+
+.melon {
+    height: 285px; /* Sets height to 285 pixels */
+    width: 556.25px; /* Sets width to 556.25 pixels */
+    position: relative; /* Enables relative positioning */
+    top: 200px; /* Moves element 200 pixels down */
+    left: 150px; /* Moves element 150 pixels to the right */
+    border-radius: 25px; /* Rounds corners with a radius of 25 pixels */
+}
+
+.red {
+  font-family: "Jersey 10"; /* Sets font family to 'Jersey 10' */
+  position: relative; /* Enables relative positioning */
+  top: 350px; /* Moves element 350 pixels down */
+  right: 450px; /* Moves element 450 pixels to the left */
+  display: inline-block; /* Allows element to behave like an inline-level block container */
+  background-color: mediumorchid; /* Sets background color to mediumorchid */
+  padding: 20px; /* Adds 20 pixels padding inside the element */
+  width: 225px; /* Sets width to 225 pixels */
+  height: 54px; /* Sets height to 54 pixels */
+  font-size: 45px; /* Sets font size to 45 pixels */
+  color: black; /* Sets text color to black */
+  border-radius: 20px; /* Rounds corners with a radius of 20 pixels */
+  text-align: center; /* Centers text horizontally */
+}
+
+.red:hover {
+    background-color: rgb(120, 39, 141); /* Changes background color on hover to a darker purple */
+    text-decoration: underline; /* Underlines the text on hover */
+}
+
+.pink {
+    font-family: "Jersey 10"; /* Sets font family to 'Jersey 10' */
+    position: relative; /* Enables relative positioning */
+    top: 350px; /* Moves element 350 pixels down */
+    left: 0px; /* No horizontal movement */
+    display: inline-block; /* Inline-level block container */
+    background-color: mediumorchid; /* Background color mediumorchid */
+    padding: 20px; /* Padding inside the element */
+    width: 225px; /* Width set to 225 pixels */
+    height: 54px; /* Height set to 54 pixels */
+    font-size: 45px; /* Font size 45 pixels */
+    color: black; /* Text color black */
+    border-radius: 20px; /* Rounded corners 20 pixels */
+    text-align: center; /* Center text horizontally */
+}
+
+.pink:hover {
+    background-color: rgb(120, 39, 141); /* Darker purple background on hover */
+    text-decoration: underline; /* Underlines text on hover */
+}
+
+.blue {
+    font-family: "Jersey 10"; /* Font family set */
+    position: relative; /* Relative positioning */
+    top: 350px; /* Moves down 350 pixels */
+    left: 425px; /* Moves right 425 pixels */
+    display: inline-block; /* Inline block container */
+    background-color: mediumorchid; /* Background color */
+    padding: 20px; /* Padding inside */
+    width: 225px; /* Width */
+    height: 54px; /* Height */
+    font-size: 45px; /* Font size */
+    color: black; /* Text color */
+    border-radius: 20px; /* Rounded corners */
+    text-align: center; /* Center text */
+}
+
+.blue:hover {
+    background-color: rgb(120, 39, 141); /* Darker purple on hover */
+    text-decoration: underline; /* Underline text on hover */
+}
